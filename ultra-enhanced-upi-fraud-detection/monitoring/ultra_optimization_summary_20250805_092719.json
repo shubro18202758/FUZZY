@@ -1,0 +1,31 @@
+{
+  "monitoring_session": {
+    "start_time": "2025-08-05T03:25:39.482592",
+    "end_time": "2025-08-05T09:27:19.978052",
+    "total_duration_seconds": 21700.49546,
+    "total_duration_formatted": "6:01:40"
+  },
+  "optimization_progress": {
+    "final_phase": "\ud83d\udcca Final Analysis & Report Generation",
+    "final_model": "None",
+    "trials_completed": 0,
+    "total_trials": 0,
+    "best_score_achieved": 0.0,
+    "completion_percentage": 0
+  },
+  "performance_statistics": {},
+  "system_resource_usage": {
+    "cpu_usage": {
+      "average": 7.683200000000001,
+      "maximum": 37.2,
+      "minimum": 3.6
+    },
+    "memory_usage": {
+      "average_percent": 48.255199999999995,
+      "maximum_percent": 54.9,
+      "average_gb": 15.303441711425782,
+      "peak_gb": 17.409000396728516
+    }
+  },
+  "epoch_details": {}
+}

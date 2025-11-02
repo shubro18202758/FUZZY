@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# TensorFlow
+*.h5
+*.pb
+*.ckpt
+checkpoint
+
+# Model files (large)
+models/fine_tuned/*.pkl
+models/ultra_optimized/*.pkl
+models/*.h5
+
+# Logs
+*.log
+
+# CatBoost
+catboost_info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large data files (optional - uncomment if needed)
+# *.csv
+# data/
+
+# Monitoring
+monitoring/*.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp

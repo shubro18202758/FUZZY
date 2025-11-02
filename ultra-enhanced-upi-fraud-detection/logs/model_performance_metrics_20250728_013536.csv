@@ -1,0 +1,7 @@
+Model,Accuracy,Precision,Recall,F1_Score,AUC_ROC,AUC_PR,Training_Time,Prediction_Time,Memory_Usage
+Gradient Boosting,0.753,0.768,0.741,0.754,0.821,0.789,52:15 minutes,0.234 seconds,2.1 GB
+Voting Ensemble,0.753,0.762,0.748,0.755,0.825,0.793,3:42:30 hours,0.891 seconds,8.7 GB
+XGBoost,0.753,0.771,0.738,0.754,0.819,0.786,38:45 minutes,0.189 seconds,1.8 GB
+LightGBM,0.749,0.764,0.735,0.749,0.815,0.781,28:12 minutes,0.156 seconds,1.2 GB
+Random Forest,0.746,0.759,0.731,0.745,0.812,0.776,1:15:30 hours,0.421 seconds,3.4 GB
+Deep Neural Network,0.708,0.723,0.694,0.708,0.781,0.745,2:45:15 hours,0.312 seconds,4.2 GB

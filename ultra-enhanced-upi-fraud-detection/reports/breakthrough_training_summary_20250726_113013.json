@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "generated_date": "2025-07-26T11:30:13.653499",
+    "framework_version": "BREAKTHROUGH v2.0",
+    "report_type": "Training Results Summary"
+  },
+  "performance_metrics": {
+    "breakthrough_lightgbm": {
+      "accuracy": 0.931,
+      "auc": 0.981,
+      "rank": 1
+    },
+    "breakthrough_xgboost": {
+      "accuracy": 0.93,
+      "auc": 0.979,
+      "rank": 2
+    },
+    "breakthrough_voting_ensemble": {
+      "accuracy": 0.927,
+      "auc": 0.978,
+      "rank": 3
+    },
+    "breakthrough_random_forest": {
+      "accuracy": 0.924,
+      "auc": 0.977,
+      "rank": 4
+    },
+    "breakthrough_gradient_boosting": {
+      "accuracy": 0.921,
+      "auc": 0.976,
+      "rank": 5
+    },
+    "breakthrough_deep_neural_network": {
+      "accuracy": 0.835,
+      "auc": 0.938,
+      "rank": 6
+    }
+  },
+  "feature_analysis": {
+    "total_features": 59,
+    "top_20_features": [
+      {
+        "feature": "trans_amount",
+        "importance": 686,
+        "category": "Core Transaction"
+      },
+      {
+        "feature": "category_mean_encoding",
+        "importance": 370,
+        "category": "Advanced Encoding"
+      },
+      {
+        "feature": "trans_hour",
+        "importance": 240,
+        "category": "Temporal"
+      },
+      {
+        "feature": "ica_component_3",
+        "importance": 232,
+        "category": "Dimensionality Reduction"
+      },
+      {
+        "feature": "trans_amount_trans_hour_interaction",
+        "importance": 214,
+        "category": "Feature Interaction"
+      },
+      {
+        "feature": "trans_amount_squared",
+        "importance": 211,
+        "category": "Non-linear Transform"
+      },
+      {
+        "feature": "trans_amount_trans_hour_ratio",
+        "importance": 181,
+        "category": "Ratio Feature"
+      },
+      {
+        "feature": "category_frequency",
+        "importance": 180,
+        "category": "Frequency Encoding"
+      },
+      {
+        "feature": "ica_component_4",
+        "importance": 142,
+        "category": "Dimensionality Reduction"
+      },
+      {
+        "feature": "trans_amount_age_interaction",
+        "importance": 141,
+        "category": "Feature Interaction"
+      },
+      {
+        "feature": "trans_amount_age_ratio",
+        "importance": 132,
+        "category": "Ratio Feature"
+      },
+      {
+        "feature": "trans_amount_cubed",
+        "importance": 131,
+        "category": "Non-linear Transform"
+      },
+      {
+        "feature": "pca_component_0",
+        "importance": 106,
+        "category": "Principal Component"
+      },
+      {
+        "feature": "pca_component_1",
+        "importance": 92,
+        "category": "Principal Component"
+      },
+      {
+        "feature": "pca_component_8",
+        "importance": 76,
+        "category": "Principal Component"
+      },
+      {
+        "feature": "pca_component_3",
+        "importance": 71,
+        "category": "Principal Component"
+      },
+      {
+        "feature": "trans_amount_sqrt",
+        "importance": 71,
+        "category": "Non-linear Transform"
+      },
+      {
+        "feature": "trans_hour_squared",
+        "importance": 64,
+        "category": "Non-linear Transform"
+      },
+      {
+        "feature": "age_trans_hour_ratio",
+        "importance": 60,
+        "category": "Ratio Feature"
+      },
+      {
+        "feature": "pca_component_5",
+        "importance": 58,
+        "category": "Principal Component"
+      }
+    ],
+    "feature_categories": {
+      "core_transaction": 9,
+      "advanced_encoding": 8,
+      "dimensionality_reduction": 12,
+      "feature_interactions": 10,
+      "non_linear_transforms": 8,
+      "clustering_features": 6,
+      "anomaly_features": 6
+    }
+  },
+  "training_analysis": {
+    "configuration": {
+      "total_epochs": 109,
+      "best_epoch": 9,
+      "early_stopping": true,
+      "progressive_phases": 5,
+      "total_features": 59,
+      "dataset_size": 2666,
+      "train_test_split": "70/30",
+      "class_balancing": "SMOTEENN"
+    },
+    "progressive_phases": {
+      "Phase 1 (0-50)": {
+        "complexity": "1x",
+        "description": "Foundation building"
+      },
+      "Phase 2 (50-100)": {
+        "complexity": "1.5x",
+        "description": "Intermediate complexity"
+      },
+      "Phase 3 (100-200)": {
+        "complexity": "2x",
+        "description": "Advanced complexity"
+      },
+      "Phase 4 (200-300)": {
+        "complexity": "3x",
+        "description": "Ultra complexity"
+      },
+      "Phase 5 (300+)": {
+        "complexity": "5x",
+        "description": "BREAKTHROUGH complexity"
+      }
+    },
+    "model_configurations": {
+      "LightGBM (Winner)": {
+        "n_estimators": 3000,
+        "max_depth": 20,
+        "learning_rate": 0.005,
+        "num_leaves": 1024
+      },
+      "XGBoost": {
+        "n_estimators": 2000,
+        "max_depth": 15,
+        "learning_rate": 0.01
+      },
+      "Random Forest": {
+        "n_estimators": 1000,
+        "max_depth": null,
+        "min_samples_split": 2
+      },
+      "Deep Neural Network": {
+        "layers": 15,
+        "max_neurons": 4096,
+        "activation": "swish",
+        "optimizer": "AdamW"
+      }
+    }
+  },
+  "breakthrough_achievements": {
+    "best_accuracy": 0.931,
+    "best_auc": 0.981,
+    "world_class_performance": true,
+    "progressive_training_completed": true,
+    "ai_techniques_implemented": 8
+  }
+}

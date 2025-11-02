@@ -1,0 +1,6 @@
+Metric,Value,Unit
+Best Accuracy,0.753,percentage
+Total Features,1422.0,count
+Feature Expansion Ratio,23.7,ratio
+Training Samples,15000.0,count
+Cross-Validation Mean Accuracy,0.751,percentage

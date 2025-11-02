@@ -1,0 +1,50 @@
+{
+    "amdv_art": {
+        "accuracy": 0.8321,
+        "f1": 0.8614
+    },
+    "deep_nn": {
+        "accuracy": 0.8066,
+        "f1": 0.8327
+    },
+    "xgboost": {
+        "accuracy": 0.967,
+        "f1": 0.9722
+    },
+    "lightgbm": {
+        "accuracy": 0.967,
+        "f1": 0.9724
+    },
+    "ensemble": {
+        "accuracy": 0.949,
+        "precision": 0.964,
+        "recall": 0.9494,
+        "f1": 0.9566,
+        "auc": 0.986
+    },
+    "metadata": {
+        "timestamp": "2025-10-04 17:06:52",
+        "dataset_samples": 2666,
+        "train_samples": 1999,
+        "test_samples": 667,
+        "features": 36,
+        "models": [
+            "AMDV-ART Ensemble (5 models)",
+            "Deep Transformer Neural Network",
+            "XGBoost",
+            "LightGBM"
+        ],
+        "ensemble_weights": {
+            "amdv_art": 0.30,
+            "deep_nn": 0.30,
+            "xgboost": 0.20,
+            "lightgbm": 0.20
+        },
+        "confusion_matrix": {
+            "true_negatives": 258,
+            "false_positives": 14,
+            "false_negatives": 20,
+            "true_positives": 375
+        }
+    }
+}
