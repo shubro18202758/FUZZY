@@ -34,10 +34,15 @@ env/
 *.ckpt
 checkpoint
 
-# Model files (large)
-models/fine_tuned/*.pkl
-models/ultra_optimized/*.pkl
-models/*.h5
+# Model files (large - exclude from GitHub)
+models/**/*.pkl
+models/**/*.h5
+*.pkl
+ultra-enhanced-upi-fraud-detection/models/breakthrough_ultra_advanced_upi_detector.pkl
+ultra-enhanced-upi-fraud-detection/models/revolutionary_ultra_advanced_upi_detector.pkl
+ultra-enhanced-upi-fraud-detection/models/ultra_advanced_upi_detector.pkl
+ultra-enhanced-upi-fraud-detection/models/fine_tuned/*.pkl
+ultra-enhanced-upi-fraud-detection/models/ultra_optimized/*.pkl
 
 # Logs
 *.log
